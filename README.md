@@ -1,8 +1,12 @@
 # Problems on recursion
 
+#
+
 Problem Statement 
-1#
+
+1. 
 Implement a function that takes an array testVariable containing opening ( and closing parenthesis ) and determines whether or not the brackets in the array are balanced. The function also takes startIndex = 0 and currentIndex = 0 as parameters.
+
 
 What does “Balanced Parenthesis” Mean? #
 Balanced parentheses mean that each opening bracket ( has a corresponding closing bracket ). Also, the pairs of parentheses are properly nested.
@@ -10,20 +14,32 @@ Balanced parentheses mean that each opening bracket ( has a corresponding closin
 Consider the following correctly balanced parentheses:
 
 ()
+
 (())
+
 (())()
+
 ((()))((()))
+
 Now take a look at some incorrectly balanced parentheses:
 
 (
+
 )()(
+
 ((()()()()
+
 ((())))((((()
-Input #
+
+
+Input 
+
 An array testVariable containing opening and closing parentheses.
 
 testVariable = ["(", ")", "(", ")"]
-Output #
+
+Output 
+
 true if the parentheses in the input array are balanced. false if the parentheses in the input array are imbalanced.
 
 
@@ -31,27 +47,38 @@ true if the parentheses in the input array are balanced. false if the parenthese
 
 
 
+#
 
 Problem Statement 
-2#
+
+2. 
 Write a function that takes a number testVariable and returns a string that is its equivalent binary number.
 
-Input #
+Input 
+
 A variable testVariable containing the decimal number.
 
-Output #
+Output 
+
 String variable that contains the equivalent binary number of the input number.
 
-Sample Input #
+Sample Input
+
 11
-Sample Output #
+
+Sample Output
+
 "1011"
 
+#
+
 Problem Statement 
-3#
+
+3. 
 Implement a function that takes two numbers, testVariable1 and testVariable2 and returns their greatest common divisor.
 
-What is the Greatest Common Divisor? #
+What is the Greatest Common Divisor? 
+
 The Greatest Common Divisor of two or more integers is the largest positive integer that divides each of the integers.
 
 For example, take two numbers 42 and 56.
@@ -62,13 +89,20 @@ For example, take two numbers 42 and 56.
 
 Therefore, the greatest common divisor of 42 and 56 is 14.
 
-Input #
+Input 
+
 Two variables testVariable1 and testVariable2 containing numbers.
 
-Output #
+Output 
+
 The greatest common divisor of testVariable1 and testVariable2.
 
-Sample Input #
+Sample Input
+
 6, 9
-Sample Output #
+
+Sample Output 
+
 3
+
+#
